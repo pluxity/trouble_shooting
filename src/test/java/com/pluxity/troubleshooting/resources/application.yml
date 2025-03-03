@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: TroubleShooting
+  jpa:
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create-drop
+      format_sql: true
+      show_sql: true
